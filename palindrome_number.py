@@ -32,7 +32,7 @@ class Solution(object):
         else:
             return False  
 
-# ANOTHER SOLUTION without parsing to string
+# ANOTHER SUGGESTED SOLUTION without parsing to string --> taken from leetcode
     def isPalindrome_wihtoutconversion(self, x):
         """
         :type x: int
