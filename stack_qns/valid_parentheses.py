@@ -58,3 +58,9 @@ print(s1.isValid("(]"))
 print(s1.isValid(""))
 print(s1.isValid("  "))
 print(s1.isValid("["))
+
+# Time complexity: O(n) due to the traversal with for loop
+# Space complexity: 
+# Average --> O(k), where is k is the maximum difference between number of closing and opening brackets
+# Worst --> O(n), where n is the size of input string, eg. s = "(((((((((((({{{{{[[[", the stack keeps growing
+# Best --> O(1), where input string just contains closing brackets, or could be an empty string, or could contain no parentheses
