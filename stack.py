@@ -1,3 +1,6 @@
+# When do we use Stack?
+# When we want to keep track of previous actions or states, LIFO principle
+
 # Different implementations of Stack in Python
 
 # Using python List data type
