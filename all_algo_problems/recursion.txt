@@ -1,0 +1,4 @@
+Questions to ask when looking at a question that could possibly be about recursion
+	1. Can I define a base case?
+	2. Can I break down the problem into smaller and simpler versions of itself?
+    3. Can I use the solutions to the smaller problems to construct the solution of the original problem?
